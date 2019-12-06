@@ -182,7 +182,7 @@ a {
 }
 
 .themes {
-  padding: 90px 0;
+  padding: 90px 0 0 0;
   background: #fbfaf8;
 }
 .themes .texthemes {
@@ -220,6 +220,39 @@ a {
 .themes .images img:nth-child(2) {
   left: calc(50% - (50% / 2));
   z-index: 1;
+}
+
+.multi {
+  background-image: linear-gradient(to right, #231c1a, #483025);
+  display: inline-block;
+  width: 100%;
+}
+.multi h2 {
+  font-size: 28px;
+  color: white;
+  display: inline-block;
+}
+.multi p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #615855;
+  display: inline-block;
+}
+.multi .waxom {
+  color: #c7b299;
+  font-size: 28px;
+  display: inline-block;
+}
+.multi .multi-text {
+  float: left;
+  padding: 50px 0;
+  width: 70%;
+}
+.multi .multi-btn {
+  float: left;
+  width: 30%;
+  padding: 50px 20px 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
