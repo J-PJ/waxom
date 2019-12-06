@@ -1,0 +1,19 @@
+{
+  "name": "Waxom_Test",
+  "version": "1.0.0",
+  "description": "Waxom - Free Homepage PSD Template.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
