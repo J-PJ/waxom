@@ -9,6 +9,10 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+.util, .post .text_post p, .results .result p, .results .result h1, .devices .dev-list li:before, .devices .dev-list li, .devices .dev-text p, .video .video-text .time, .latest-pj .choice .content-img .content-text p, .latest-pj .choice, .latest-pj p, .multi p, .themes .texthemes p {
+  font-family: "Montserrat", sans-serif;
+}
+
 .clearfix:after {
   content: "";
   clear: both;
@@ -43,7 +47,6 @@ a {
 
 .menu {
   float: right;
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 .menu ul {
@@ -197,7 +200,6 @@ a {
   font-weight: 600;
 }
 .themes .texthemes p {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -234,7 +236,6 @@ a {
   font-weight: 400;
 }
 .multi p {
-  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #615855;
@@ -261,7 +262,6 @@ a {
   font-size: 30px;
 }
 .latest-pj p {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -274,7 +274,6 @@ a {
   margin-bottom: 30px;
 }
 .latest-pj .choice {
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
 }
@@ -337,7 +336,6 @@ a {
   font-weight: 500;
 }
 .latest-pj .choice .content-img .content-text p {
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #d1d1d1;
@@ -371,7 +369,6 @@ a {
 }
 .video .video-text .time {
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #c7b299;
   padding: 40px 0 180px 0;
@@ -391,7 +388,6 @@ a {
   margin-bottom: 20px;
 }
 .devices .dev-text p {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 50px;
@@ -405,14 +401,12 @@ a {
   position: relative;
   margin-bottom: 10px;
   color: #8c8c8c;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
   padding-left: 50px;
 }
 .devices .dev-list li:before {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: 600;
   content: ">";
@@ -442,15 +436,45 @@ a {
   margin: 20px 0 20px 0;
   color: white;
   font-size: 48px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 200;
 }
 .results .result p {
   color: #c7b299;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+}
+.results .result .result_line {
+  height: 3px;
+  width: 35px;
+  background-color: #ffffff;
+  margin: 30px auto 0 auto;
+}
+
+.post {
+  padding: 80px 0;
+}
+.post .text_post {
+  text-align: center;
+  width: 760px;
+}
+.post .text_post h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.post .text_post p {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.post .content_post {
+  display: inline-block;
+  margin-right: 30px;
+}
+.post .content_postlast_child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
