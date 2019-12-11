@@ -35,7 +35,7 @@ a {
   padding: 30px 0 300px 0;
 }
 
-.wrapper {
+.wrapper, .devices__wrapper {
   display: block;
   max-width: 1200px;
   margin: 0 auto;
@@ -377,52 +377,80 @@ a {
   padding: 40px 0 180px 0;
 }
 
-.devices .dev-img {
-  margin: 80px 0 0 0;
-  float: left;
-  height: 100%;
+.devices__wrapper {
+  padding: 192px 0 175px 0;
+  background: url("../img/hand-phone.png") no-repeat bottom left 48px;
 }
-.devices .dev-text {
-  text-align: center;
+.devices__block {
+  max-width: 665px;
+  margin-left: auto;
 }
 .devices .dev-text h2 {
   font-size: 30px;
   font-weight: 600;
-  padding: 195px 0 40px 0;
+  margin-bottom: 20px;
 }
 .devices .dev-text p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  padding: 0 0 50px 0;
+  margin-bottom: 50px;
   color: #8c8c8c;
+  line-height: 28px;
 }
 .devices .dev-list {
-  margin: 0 0 0 45px;
+  margin-left: 45px;
 }
 .devices .dev-list li {
   position: relative;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: #8c8c8c;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
+  padding-left: 50px;
 }
-.devices .dev-list ul li:before {
-  content: "";
+.devices .dev-list li:before {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 600;
+  content: ">";
   position: absolute;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  width: 10px;
-  height: 10px;
-  top: calc(50% - 4px);
-  left: -20px;
-  transform: translateY(-50%) rotate(-45deg);
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  background: #cab69f;
+  left: 0;
 }
 
 .results {
   background-image: linear-gradient(to right, #251d1a, #4a3226);
   text-align: center;
+  padding: 68px 0 60px 0;
+}
+.results .result {
+  display: inline-block;
+  margin-right: 75px;
+}
+.results .resultlast_child {
+  margin-right: 0;
+}
+.results .result h1 {
+  margin: 20px 0 20px 0;
+  color: white;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.results .result p {
+  color: #c7b299;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
